@@ -5,46 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Research Group</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Research Group Homepage</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#projects">Our Projects</a></li>
-                <li><a href="#team">Meet the Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Your Research Group</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a research group focusing on [research area].</p>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a research group focusing on cutting-edge technologies in AI and neuroscience. Our goal is to advance understanding and develop innovative solutions for future technologies.</p>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>Our Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-        </ul>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Project 1</h3>
+                    <p>Deep learning in healthcare.</p>
+                </div>
+                <div class="card">
+                    <h3>Project 2</h3>
+                    <p>Genomic research for personalized medicine.</p>
+                </div>
+                <div class="card">
+                    <h3>Project 3</h3>
+                    <p>AI for sustainable energy solutions.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="team">
-        <h2>Meet the Team</h2>
-        <p>Our team consists of [team member names].</p>
+    <section id="team" class="section">
+        <div class="container">
+            <h2>Meet the Team</h2>
+            <p>Our team consists of interdisciplinary experts who drive the research and innovation behind each project.</p>
+            <ul>
+                <li>John Doe - Research Lead</li>
+                <li>Jane Smith - Data Scientist</li>
+                <li>Mary Johnson - AI Specialist</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@yourgroup.com</p>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:contact@yourgroup.com">contact@yourgroup.com</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Research Group</p>
+        <div class="container">
+            <p>&copy; 2023 Your Research Group. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
